@@ -27,13 +27,13 @@ function calculateHandler() {
 function calculate(initial, quantity, current) {
   if (initial > current) {
     var loss = (initial - current) * quantity;
-    var loss_percentage = (loss / initial) * 100;
+    var loss_percentage = (loss / (initial*quantity)) * 100;
     loss_percentage = loss_percentage.toFixed(2);
     showOutput(`Loss incurred is ${loss} that is ${loss_percentage}% loss`);
 
   } else if (current > initial) {
     var profit = (current - initial) * quantity;
-    var profit_percentage = (profit / initial) * 100;
+    var profit_percentage = (profit / (initial * quantity)) * 100;
     profit_percentage = profit_percentage.toFixed(2);
     showOutput(
       `Profit gained is ${profit} that is ${profit_percentage}% profit`
