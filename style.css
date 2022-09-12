@@ -17,12 +17,12 @@ h1{
     font-size: 2rem;
     font-weight: bolder;
     padding: 0.5rem;
-    margin: 1rem;
+    margin: 0.8rem;
     display: block;
     color: #8D9AC6;
 }
 .container label input{
-    margin: 1rem;
+    margin: 0.8rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
     border-color: #8D9AC6;
@@ -48,6 +48,7 @@ button{
     font-size: 2.2rem;
     color: #8D9AC6;
     font-weight: bolder;
+    margin-bottom: 1rem;
 }
 footer a{
     font-size: large;
@@ -59,7 +60,7 @@ footer a{
 footer{
    position: fixed;
   background-color: #0B0F27;
- padding: 1rem;
+ padding: 0.5rem;
  right: 0;
   left: 0;
   bottom: 0;
